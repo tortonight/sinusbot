@@ -14,7 +14,7 @@ You need to adjust the value of the following variables in the configuration exa
 If you are using no SSL (http):
 
 <!-- TODO: check if websockets work -->
-
+`nano /etc/nginx/sites-available/ts3manager.torunit.net.conf`
 ```nginx
 server {
     listen 80;
@@ -87,7 +87,7 @@ server {
 
 Afterwards you need to link the file to the `sites-enabled` directory:
 
-`ln -sf /etc/nginx/sites-available/sinusbot.conf /etc/nginx/sites-enabled`
+`ln -sf /etc/nginx/sites-available/ts3manager.torunit.net.conf /etc/nginx/sites-enabled`
 
 Check for errors:
 
