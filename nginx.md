@@ -11,10 +11,11 @@ You need to adjust the value of the following variables in the configuration exa
 - `ssl_certificate` (SSL only)
 - `ssl_certificate_key` (SSL only)
 
+```nano /etc/nginx/sites-available/ts3manager.torunit.net.conf```
 If you are using no SSL (http):
 
 <!-- TODO: check if websockets work -->
-`nano /etc/nginx/sites-available/ts3manager.torunit.net.conf`
+
 ```nginx
 server {
     listen 80;
