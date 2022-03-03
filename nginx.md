@@ -99,4 +99,8 @@ Reload nginx:
 
 `nginx -s reload`
 
+Auto SSL
+
+`sudo certbot --nginx`
+
 Now just follow the [common adaptations](common-adaptations.md) for reverse proxies.
